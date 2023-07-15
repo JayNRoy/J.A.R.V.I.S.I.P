@@ -5,17 +5,7 @@ import urllib
 """ An installer file that ensures all required modules for the program are installed.
     It also installs all missing modules so that the program can run."""
 
-requiredModules = [
-    "json",
-    "random",
-    "pickle",
-    "os",
-    "numpy",
-    "sys",
-    "pyttsx3",
-    "speechrecognition",
-    "urllib"
-]
+requiredModules = ["random", "pickle", "os", "numpy", "sys", "pyttsx3", "speechrecognition"]
 
 # First ensure pip is installed on the machine.
 try:
@@ -38,3 +28,7 @@ for module in requiredModules:
     except ImportError:
         print(f"{select} module not found. Installing {select}.")
         os.system(f"pip3.10 install {select}")
+        
+myFile = open("todo.txt", "w")
+myFile.write("")
+myFile.close()
