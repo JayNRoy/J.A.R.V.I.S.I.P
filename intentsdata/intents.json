@@ -20,6 +20,42 @@
         "What's up?",
         "Hello! Good to have you back!",
         "Tell me!"
+    ]},
+    {"tag": "goodbye",
+    "patterns": [
+        "cya",
+        "bye",
+        "goodbye",
+        "later",
+        "untill next time",
+        "see you soon",
+        "farewell",
+        "bye jarvisip",
+        "get some rest",
+        "take it easy",
+        "let me get back to you"
+    ],
+    "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Sad to see you go.",
+        "Until next time!",
+        "Please let me know if you need anything else.",
+        "Talk to you later.",
+    ]},
+    {"tag": "name",
+    "patterns": [
+        "who are you?",
+        "what are you?",
+        "what is your name?",
+        "what should I call you?",
+        "tell me about yourself?"
+    ],
+    "responses": [
+        "I am JARVISIP! An AI assistant chatbot created by Jeremy Roy.",
+        "I'm JARVISIP - Just a rather very intelligent system in Python!",
+        "You can call me JARVISIP! Rolls well of the tongue doesn't it?",
+        "I'm an AI assistant chatbot called JARVISIP! I was created by Jeremy Roy.",
+        "My name is JARVISIP. And I can help you out!"
     ]}
-
 ]}
