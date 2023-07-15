@@ -1,0 +1,25 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "what's good",
+        "greetings",
+        "what's popping",
+        "hey jarvisip",
+        "jarvisip",
+        "wakey-wakey",
+        "wake up daddy's home"
+    ],
+    "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hello again.",
+        "How can I help you?",
+        "What's up?",
+        "Hello! Good to have you back!",
+        "Tell me!"
+    ]}
+
+]}
