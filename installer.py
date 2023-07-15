@@ -32,8 +32,9 @@ except ModuleNotFoundError:
     
 # Start installing any modules that are missing.
 for module in requiredModules:
+    select = module
     try:
-        import module
+        import select
     except ImportError:
-        print(f"{module} module not found. Installing {module}.")
-        os.system(f"pip3.10 install {module}")
+        print(f"{select} module not found. Installing {select}.")
+        os.system(f"pip3.10 install {select}")
