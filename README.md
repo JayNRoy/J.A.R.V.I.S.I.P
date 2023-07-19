@@ -16,3 +16,20 @@ Future Features:
 
 * Make use of intents to allow the assistant to obey more admin-style commands.
 * Implement a trackable and updateable todo list.
+
+Based on the Video tutorials for Artificial Intelligence assistants, and OpenAI module walkthroughs created by NeuralNine:
+
+Speech and Audio:
+https://www.youtube.com/watch?v=SXsyLdKkKX0&list=PLc0f_n7JM2QzAMqOP777K-gz0zyA6-pEW&index=17&t=408s&ab_channel=NeuralNine
+
+OpenAI integration:
+https://www.youtube.com/watch?v=YVFWBJ1WVF8&t=132s&ab_channel=NeuralNine
+
+WakeWord usage:
+https://youtu.be/F62wb_jfUUw
+
+Modern GUI:
+https://www.youtube.com/watch?v=iM3kjbbKHQU&t=601s&ab_channel=NeuralNine
+
+Containerizing the App:
+https://www.youtube.com/watch?v=0TFWtfFY87U&ab_channel=NeuralNine
