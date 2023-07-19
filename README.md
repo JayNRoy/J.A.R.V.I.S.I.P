@@ -17,6 +17,10 @@ Future Features:
 * Make use of intents to allow the assistant to obey more admin-style commands.
 * Implement a trackable and updateable todo list.
 
+`<FOR ME ONLY::>`
+
+Consider selling online?
+
 Based on the Video tutorials for Artificial Intelligence assistants, and OpenAI module walkthroughs created by NeuralNine:
 
 Speech and Audio:
