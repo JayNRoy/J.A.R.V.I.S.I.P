@@ -52,10 +52,23 @@
         "tell me about yourself?"
     ],
     "responses": [
-        "I am JARVISIP! An AI assistant chatbot created by Jeremy Roy.",
-        "I'm JARVISIP - Just a rather very intelligent system in Python!",
-        "You can call me JARVISIP! Rolls well of the tongue doesn't it?",
-        "I'm an AI assistant chatbot called JARVISIP! I was created by Jeremy Roy.",
+        "I am JARVISIP! An AI assistant chatbot created by Jeremy Roy. Built as an extension of OpenAI's GPT machines.",
+        "I'm JARVISIP - Just a rather very intelligent system in Python! Built as an extension of OpenAI's GPT machines.",
+        "You can call me JARVISIP! Rolls well of the tongue doesn't it? I was built as an extension of OpenAI's GPT machines, by Jeremy Roy.",
+        "I'm an AI assistant chatbot called JARVISIP! I was created by Jeremy Roy. I was built as an extension of OpenAI's GPT machines.",
         "My name is JARVISIP. And I can help you out!"
+    ]},
+    {"tag": "todo",
+    "patterns": [
+        "add something to my todo list",
+        "I need to remember to do something",
+        "I have to do something later on",
+        "put this on my todo list",
+        "add this to my todo list"
+    ],
+    "responses": [
+        "What would you like to add to your 'to-do' list?",
+        "What is the name of the task for your 'to-do' list?",
+        "Please give me the name of your new 'to-do' for your 'to-do' list."
     ]}
 ]}

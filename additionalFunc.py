@@ -26,3 +26,5 @@ def readTodo():
     if "" in todoList:
         todoList = todoList[0:len(todoList)-1]
     return todoList
+
+
