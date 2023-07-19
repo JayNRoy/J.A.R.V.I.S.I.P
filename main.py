@@ -20,7 +20,9 @@ def logConvo(action, sender="JARVISIP"):
 
 # TODO MACHINE SHUTDOWN
 def shutDown():
-    pass
+    global UserName
+    sayThis(f"Goodbye {UserName}!")
+    logConvo("--- MACHINE OFFLINE ----")
 
 startup = [False, False, False, False]
 logConvo("---- MACHINE ONLINE ----")
